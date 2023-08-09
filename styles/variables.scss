@@ -1,0 +1,18 @@
+// sizes
+
+:root {
+    --content-width: 1920px;
+}
+
+// colors
+
+$primary-color: #4C5FD5;
+$secondary-color: #dadbf1;
+$tertiary-color: #000000;
+$fourth-color: #fff;
+
+// fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=REM:wght@100;400;800&display=swap');
+
+$main-font: 'REM', sans-serif;
