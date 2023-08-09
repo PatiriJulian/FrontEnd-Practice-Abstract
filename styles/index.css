@@ -19,12 +19,12 @@ a {
 
 :root {
   --content-width: 1920px;
-  --max-width-desktop:1800px;
+  --max-width-desktop:1700px;
 }
 
 :root {
   --content-width: 1920px;
-  --max-width-desktop:1800px;
+  --max-width-desktop:1700px;
 }
 
 .header {
@@ -50,7 +50,7 @@ a {
   gap: 12px;
 }
 .header .conteiner-header .logo-header img {
-  width: 10rem;
+  width: 126px;
 }
 .header .conteiner-header .logo-header p {
   font-size: 25px;
@@ -65,7 +65,8 @@ a {
   height: 55px;
   background-color: #191a1a;
   color: #fff;
-  border-radius: 11px;
+  border: 1px solid;
+  border-radius: 8px;
   border-color: #fff;
   border-width: thin;
   font-family: "REM", sans-serif;
@@ -78,7 +79,7 @@ a {
   background-color: #4C5FD5;
   color: #fff;
   border-style: none;
-  border-radius: 11px;
+  border-radius: 8px;
   border-width: thin;
   font-family: "REM", sans-serif;
   font-size: 22px;
