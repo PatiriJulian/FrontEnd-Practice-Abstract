@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=REM:wght@100;400;800&display=swap");
+:root {
+  --content-width: 1920px;
+  --max-width-desktop:1700px;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  font-family: "REM", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer .conteiner-footer {
+  width: var(--max-width-desktop);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer .conteiner-footer .column-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer .conteiner-footer .column-footer h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.footer .conteiner-footer .column-footer a {
+  color: #fff;
+  font-size: 16px;
+}
+.footer .conteiner-footer .column-footer a:hover {
+  text-decoration: underline;
+}
+.footer .conteiner-footer .column-footer strong {
+  font-size: 16px;
+  margin-top: 25px;
+}
+.footer .conteiner-footer .column-footer-copyright {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.footer .conteiner-footer .column-footer-copyright .logo-footer {
+  background-image: url(/img/logo-footer.svg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.footer .conteiner-footer .column-footer-copyright p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=footer.css.map */
