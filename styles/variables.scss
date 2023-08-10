@@ -5,6 +5,42 @@
     --max-width-desktop:1700px;
 }
 
+@media (max-width: 1920px) {
+    :root {
+    --max-width-desktop:1700px;
+
+        /* Para mantener el mismo valor en esta resolución */
+    }
+}
+
+@media (max-width:1700px) {
+    :root {
+    --max-width-desktop:1500px;
+
+    }
+}
+
+@media (max-width:1500px) {
+    :root {
+    --max-width-desktop:1300px;
+
+    }
+}
+
+@media (max-width:1300px) {
+    :root {
+    --max-width-desktop:1000px;
+
+    }
+}
+
+@media (max-width:1000px) {
+    :root {
+    --max-width-desktop:700px;
+
+    }
+}
+
 // colors
 
 $primary-color: #4C5FD5;
