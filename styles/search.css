@@ -31,6 +31,19 @@
     --max-width-desktop:700px;
   }
 }
+@media (max-width: 1000px) {
+  :root .search .conteiner-search form {
+    width: 400px;
+  }
+  :root .search .conteiner-search img {
+    width: 28px;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 134px;
+    bottom: -5px;
+    z-index: 100;
+  }
+}
 .search {
   background-color: #dadbf1;
   height: 397px;

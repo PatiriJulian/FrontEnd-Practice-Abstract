@@ -1,5 +1,15 @@
 @import 'variables';
 
+@media (max-width:1000px) {
+    :root {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    }
+}
+
 .main {
     width: 80%;
     margin: 0 auto;
